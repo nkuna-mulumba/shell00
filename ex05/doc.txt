@@ -1,0 +1,9 @@
+#!/bin/bash → Indica ao sistema que, script deve ser interpretado pelo Bash
+
+git log → Mostra o histórico de commits do repositório Git;
+
+--format="%H" → Exibe apenas o hash completo de cada commit;
+
+-n 5 → Limita a saída aos 5 commits mais recentes;
+
+chmod +x git_commit.sh -> Dá permissão de execução ao script;
